@@ -15,6 +15,7 @@ func main() {
 	c := controller.NewController(geo, db)
 
 	info, _ := c.GetInfoUserById("2")
+	_ = info
 
 	fmt.Println(info)
 }
